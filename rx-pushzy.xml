@@ -50,9 +50,9 @@
   <prescription type="service" class="com.huawei.deviceCloud.microKernel.push.EventReceiver" sender="any" />  
   <prescription type="service" class="org.ddpush.im.v1.client.appuser.Message" sender="any" />  
   <prescription type="service" class="com.cocos.push.service.CCPushService" sender="any" />  
-<prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.NetworkStatusReceiver" sender="any" />
-<prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.PingReceiver" sender="any" />
-<!-- Taobao push SDK -->
+  <prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.NetworkStatusReceiver" sender="any" />
+  <prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.PingReceiver" sender="any" />
+  <!-- Taobao push SDK -->
 <prescription type="service" class="com.taobao.accs.ChannelService" sender="any" />
 <prescription type="service" class="com.taobao.accs.ChannelService$KernelService" sender="any" />
 <prescription type="service" class="com.taobao.accs.data.MsgDistributeService" sender="any" />
